@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Basics!</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<h1>Complete HTML</h1>
+
+<body>
+  <!-- <style>
+    del{
+      color: darkgreen;
+      background-color: black;
+    }
+  </style> -->
+  <!-- Tag's -->
+  <p>Tags</p>
+
+  <div class="my">My name is muskan
+    <h4 class="my">My name is not muskan</h4>
+  </div>
+
+  <div id="Un">Lorem <hr> <hr>ipsum dolor sit amet consectetur adipisicing elit. Quam vitae aspernatur nam ipsam odio <br> consequuntur perferendis voluptatum quo aliquid, tenetur veniam! Mollitia animi delectus <br>reprehenderit eligendi iusto possimus nisi vero.
+    <p id="pn">Hello World!</p>
+
+  </div>
+  <h1>hello!</h1>
+  <h2>hello!</h2>
+  <h3>hello!</h3>
+  <h4>hello!</h4>
+  <h5>hello!</h5>
+  <h6>hello!</h6>
+  
+  <p>Lorem ipsum dolor sit amet <sup>consectetursip</sup> adipisicing elit. Id ducimus cumque quaerat saepe at incidunt fuga similique. Mollitia, sed ipsum numquam eos <sub>repellendus</sb>praesentium <b>###hello#</b>recusandae rerum unde est odit asperiores.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. <q>Deserunt, voluptates</q>aperiam? <i>Aliquam delectus non, odio eos tenetur harum sunt fuga esse voluptas, repellat provident repellendus beatae voluptates ipsa magnam magni.</i>
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. <del>Inventore</del> consectetur, libero error doloremque iure atque beatae, dolore magnam aut itaque nemo facere nulla omnis, nesciunt <ins>necessitatibus reprehenderit voluptates sequi neque.</ins>
+  </p>
+
+  <!-- list tag -->
+   <h1>Lists</h1>
+   <h2 id="mu">ordered list</h2>
+   <ol type="A">
+    <li>isha</li>
+    <li>muskan</li>
+    <li>mahi</li>
+
+   </ol>
+   <ol start="3">
+    <li>isha</li>
+    <li>muskan</li>
+    <li>mahi</li>
+
+   </ol>
+   <ol reversed>
+    <li>isha</li>
+    <li>muskan</li>
+    <li>mahi</li>
+
+   </ol>
+   <ol>
+    <li>isha</li>
+    <li>muskan</li>
+    <li>mahi</li>
+
+   </ol>
+
+   <h2 id="mu">unordered list</h2>
+   <ul>
+    <li>10</li>
+    <li>12</li>
+    <li>13</li>
+   </ul>
+
+<dl>
+  <dt>Item</dt>
+  <dd>description</dd>
+</dl>
+
+<p id="he">iFrame in html</p>
+
+<iframe src=c:\Users\Muskan\Videos\2025-06-07 04-56-14.mkv title="Github"> </iframe>
+
+<p>Anchor tag</p>
+<a href="https://github.com/Muskan-tuteja/pha5e.section" target="_blank">Github</a>
+<a href="https://github.com/Muskan-tuteja/pha5e.section" target="_self">Github</a>
+<a href="https://github.com/Muskan-tuteja/pha5e.section" target="_parent">Github</a>
+<a href="https://github.com/Muskan-tuteja/pha5e.section" target="_top">Github</a>
+<br>
+<a href="github.png" download="img">Download</a>
+
+<p>Tables tag in html</p>
+
+<table border="1">
+  <tr>
+    <!-- th heading -->
+    <th>Name</th>
+    <th>Class</th>
+    <th>Roll NO</th>
+    <th>Course</th>
+    <tr>
+      <!-- <td>data</td> -->
+       <td rowspan="3">muskan</td>
+       <td>bse</td>
+       <td rowspan="2">23</td>
+       <td>css</td>
+    </tr>
+    <tr>
+       <td>mahi</td>
+       <td>bca</td>
+       <td colspan="2">23</td>
+       <td>py</td>
+    </tr>
+    <tr>
+       <td>muskan</td>
+       <td>cse</td>
+       <td>29</td>
+       <td>java</td>
+    </tr>
+   
+  </tr>
+</table>
+
+<h2>Image tag</h2>
+<img src="github.png"alt
+="github">
+
+<h2>audio tag</h2>
+<audio controls loop muted>
+  <source src="musics.mp3" type="audio/mp3">
+
+</audio>
+
+<!-- form  -->
+ <h2>form</h2>
+ <form  action="page.html"></form>
+  <form>Name</form>
+  <input type="text">
+
+  <form>password</form>
+  <input type="password">
+
+  <form>button</form>
+  <input type="button">
+
+  <form>Email</form>
+  <input type="email">
+  <input type="checkbox">
+  <input type="radio">
+  <input type="url">
+  <input type="search">
+  <input type="tel">
+  <input type="range">
+  <input type="number">
+  <input type="file">
+  <input type="image">
+  <input type="hidden">
+  <input type="submit">
+  <input type="reset">
+  <input type="date">
+  <input type="datetime">
+ </form>
+ <hr>
+
+ <form action="page.html" autocomplete="on">
+  <!-- for lagne se name par click hoga  -->
+  <label for="name">Name</label> 
+  <input type="text" id="name">
+
+  <br/>
+
+  <label>Email</label> 
+  <input type="text" id="Email" required>
+
+  <input type="submit"> <input type="reset">
+  <br>
+
+  <label for="gender">Gender</label>
+  <br>
+  Male<input type="radio" name="Gender"value="male">
+ Female <input type="radio" name="Gender"value="female">
+
+
+ <hr>
+ <hr>
+
+ <form action="#" autocomplete="off">
+
+  <input type="file" accept="image/*" multiple> 
+  <input type="file" accept="audio/*"> 
+  <input type="file" accept="Videos/*"> 
+
+  <!-- autocomplete mtld name ni aya ga -->
+  <input type="text" name="name" autocomplete="off">
+  <input type="text" name="name" autofocus="off">
+
+
+ </form>
+
+ subjects:
+ java<input type="checkbox" checked>
+ c++<input type="checkbox" checked>
+ python<input type="checkbox" checked disabled>
+
+ Age<input type="number" min="18" max="34" step="3">
+ <input type="submit">
+
+
+ </form>
+ 
+
+ <!-- text area -->
+
+ <p>Text Area</p>
+ <input type="text">
+ <textarea placeholder="comment"></textarea>
+
+ <p>field set</p>
+ <fieldset>
+  <legend>student</legend>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste unde veritatis ipsa nesciunt quam. Ex doloremque ullam rem ut, veniam laborum perferendis. Accusamus earum fuga exercitationem dolorum quaerat minima fugit.</p>
+ </fieldset>
+ <!-- select tag -->
+  <p>select</p>
+<select>
+  <option>select</option>
+  <optgroup label="Programming language">
+<option>java</option>
+<option>c++</option>
+<option>java</option>
+</optgroup>
+<optgroup label="language">
+<option>eng</option>
+<option>hindi</option>
+</optgroup>
+
+</select>
+
+<!-- button tag -->
+ <button accesskey="s">Lagin</button>
+
+</body>
+</html>

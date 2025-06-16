@@ -1,0 +1,40 @@
+h1{
+color: blueviolet;
+}
+  p{  
+  background-color: yellow;
+  font-size: 50px;
+  font-size: 2rem;
+}  
+.my{
+  background-color: rgb(255,0,255)
+}
+#Un{
+  color: coral;
+}
+#pn{
+  color: cadetblue;
+  background-color: rgb(0, 234,56);
+}
+b {
+  color: darkgoldenrod;
+}
+i {
+  background-color: rgba(237, 0, 21, 0.1);
+}
+q{
+  color: darkred;
+}
+ins{
+  background-color: gold;
+}
+del{
+  color: red;
+}
+#mu{
+  color: lawngreen;
+}
+#he{
+  color: saddlebrown;
+  background-color: black;
+}

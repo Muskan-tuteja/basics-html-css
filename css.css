@@ -1,0 +1,29 @@
+:root{
+  font-size: 2rem;
+}
+
+/* 
+div{
+  background-color: blueviolet;
+  width: 100%;
+  height: 300px;
+  width: 50vw;
+} */
+ol{
+  width: 10px;
+  height: 30vw;
+  background-color: red;
+}
+text{
+  width: 10ch;
+}
+.mol {
+  border: 2px solid yellow;
+  border-style:double ;
+  border-width:16px;
+  border-color:  blue red green black;
+  background-color: rgba(255, 0, 255);
+  /* content or boarder ki bich ki duri ko padding bol te ha */
+  padding: 10px 20px 30px 40px ;
+  margin: 20px 30px;
+}
