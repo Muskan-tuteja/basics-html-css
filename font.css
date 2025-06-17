@@ -1,0 +1,47 @@
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  /* font-size: 2rem; */
+  font-size: xx-large;
+}
+h1{
+  font-variant: small-caps;
+  /* font-variant: inherit; */
+  font-weight: lighter;
+  color: transparent;
+  background-clip: text;
+  background-image: url(images/house1.png);
+}
+.font {
+  font: bold 30px italic ;
+  font-variant: small-caps;
+  /* <i class="fa-brands fa-instagram"></i> */
+}
+.fa-brands{
+  color: blueviolet;
+  font-size: 30px;
+
+}
+ul{
+  list-style-image: url(images/house.png);
+  list-style-type: disc;
+  list-style-position: inside;
+  font-variant: small-caps;
+  font-style: italic;
+  color: blue;
+}
+table{
+  border: 3px solid black;
+}
+th{
+  border: 3px solid blue;
+  border-spacing: 10px 10px ;
+}
+td{
+  border: 2px solid salmon;
+}
+table{
+  border-collapse: collapse;
+  border-spacing: 10px 10px ;
+}

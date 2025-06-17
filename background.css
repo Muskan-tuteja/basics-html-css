@@ -25,7 +25,7 @@ body {
   font-size: 40px;
   background-position: top, center;
   color: transparent;
-  background-clip: text;
+  background-clip:text;
   padding: 50px;
 }
 #backi {
