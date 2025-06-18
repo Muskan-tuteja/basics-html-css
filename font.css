@@ -1,11 +1,11 @@
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-style: italic;
   /* font-size: 2rem; */
   font-size: xx-large;
 }
-h1{
+h1 {
   font-variant: small-caps;
   /* font-variant: inherit; */
   font-weight: lighter;
@@ -14,16 +14,15 @@ h1{
   background-image: url(images/house1.png);
 }
 .font {
-  font: bold 30px italic ;
+  font: bold 30px italic;
   font-variant: small-caps;
   /* <i class="fa-brands fa-instagram"></i> */
 }
-.fa-brands{
+.fa-brands {
   color: blueviolet;
   font-size: 30px;
-
 }
-ul{
+ul {
   list-style-image: url(images/house.png);
   list-style-type: disc;
   list-style-position: inside;
@@ -31,17 +30,53 @@ ul{
   font-style: italic;
   color: blue;
 }
-table{
-  border: 3px solid black;
-}
-th{
+
+th {
   border: 3px solid blue;
-  border-spacing: 10px 10px ;
+  border-spacing: 10px 10px;
+  height: 10px;
+  padding: 10px;
 }
-td{
+td {
   border: 2px solid salmon;
+  padding: 10px;
 }
-table{
+table {
+  border: 3px solid black;
   border-collapse: collapse;
-  border-spacing: 10px 10px ;
+  border-spacing: 10px 10px;
+  empty-cells: show;
+  table-layout: fixed;
+  width: 100%;
+  text-align: right;
+  vertical-align: bottom;
+}
+th:hover {
+  background-color: blue;
+}
+tr:nth-child(3) {
+  background-color: brown;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* text */
+h4 {
+  font-style: italic;
+  font-size: x-large;
+  text-align: justify;
+  color: blue;
+  line-height: 100%;
+  text-indent: 30px;
+  word-spacing: 20px;
+  text-align-last: right;
+  /* white-space: nowrap; */
+  word-wrap: break-word;
+}
+h6 {
+  direction: rtl;
+  letter-spacing: 20px;
+  text-decoration: underline;
+  text-shadow: 2px 2px red;
+  text-transform: uppercase;
 }
