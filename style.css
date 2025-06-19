@@ -38,3 +38,63 @@ del{
   color: saddlebrown;
   background-color: black;
 }
+.blo{
+  display: block;
+  background-color: coral;
+  /* height: 100%;
+  margin: 2px; */
+}
+#in{
+  background-image: url(images/house.png);
+}
+
+/* img{
+  display: block;
+  height: 100%;
+  margin: 2px;
+} */
+/* a {
+  display: inline;
+  width: 100px;
+} */
+a {
+  display: inline-block;
+  gap: 9px;
+  height: 100%;
+  width: 100px;
+  background-color: darkgoldenrod;
+} 
+/* h1{
+  display: none;
+  visibility: hidden;
+} */
+ h2{
+  background-color: chartreuse;
+  /* visibility: hidden; */
+  color: blue;
+ }
+ .outer{
+  display: flex;
+  background-color: brown;
+  gap: 20px;
+  /* flex-direction: column-reverse; */
+  flex-direction: row-reverse;
+  flex-wrap: wrap ;
+ }
+.inner{
+  display: inline-block;
+  display: flex;
+  background-color: forestgreen;
+  flex-direction: column-reverse;
+  gap: 30px;
+  flex-flow: row-reverse;
+  flex-wrap: wrap;
+ }
+ .jus{
+  color: blue;
+  background-color: lightcoral;
+  display: flex;
+  justify-content: space-around;
+  align-items:baseline;
+  
+ }
