@@ -98,3 +98,29 @@ a {
   align-items:baseline;
   
  }
+ .gri{
+  background-image: url(images/house1.png);
+ }
+ .outter{
+  /* background-color: rgb(111, 56, 56); */
+  /* background-image: url(images/house.png); */
+  display: grid;
+  grid-template-columns: 100px 250px;
+  grid-template-rows:  100px 200px;
+  grid-gap: 10px 0;
+ }
+ .inner1{
+  grid-column: 1/6;
+  /* grid-row: 1/2 */
+  /* grid-column: span 2; */
+ }
+ .outterr{
+  /* background-image: url(images/house.png); */
+  background-color: blue;
+  display: grid;
+  /* grid-template-columns: repeat(2,ifr) ; */
+  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  grid-gap: 10px 2px;
+  display: flex;
+  display: inline-flex;
+ }
