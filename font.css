@@ -82,3 +82,75 @@ h6 {
   text-shadow: 2px 2px red;
   text-transform: uppercase;
 }
+
+.gri {
+  background-color: aqua;
+}
+.search-icon {
+  position: static;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.search-icon input {
+  border: 0;
+  outline: 0;
+}
+
+.grii {
+  background-color: darkorchid;
+}
+.search-img {
+  position: relative;
+  border: 1px solid #ccc;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 8px 12px;
+  border-radius: 25px;
+}
+.search-img input {
+  border: 0;
+  outline: 0;
+}
+.search-img i {
+  width: 15px;
+}
+.griii {
+  background-color: chocolate;
+}
+.search-imgg {
+  position: absolute;
+  border: 5px solid #ccc;
+  margin-left: 15px;
+  padding: 8px 12px;
+  border-radius: 35px;
+}
+.search-imgg input {
+  width: 150px;
+  border: 0;
+  outline: 0;
+}
+.search-imgg i {
+  width: 15px;
+}
+.gr{
+  background-color: darkkhaki;
+}
+.search-im {
+  position: absolute;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 35px;
+}
+.search-im input {
+  
+  width: 150px;
+  border: none;
+  outline: none;
+
+}
+.search-im i {
+  width: 15px;
+  margin-left: 10px;
+
+}
