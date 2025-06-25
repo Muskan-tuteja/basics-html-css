@@ -87,7 +87,7 @@ h6 {
   background-color: aqua;
 }
 .search-icon {
-  position: static;
+  position: absolute;
   border: 1px solid #ccc;
   padding: 8px 12px;
   border-radius: 25px;
@@ -101,7 +101,7 @@ h6 {
   background-color: darkorchid;
 }
 .search-img {
-  position: relative;
+  position: absolute;
   border: 1px solid #ccc;
   margin-top: 100px;
   margin-left: 50px;
@@ -134,11 +134,11 @@ h6 {
   width: 15px;
 }
 .gr{
-  background-color: darkkhaki;
+  background-color: rgb(7, 26, 196);
 }
 .search-im {
   position: absolute;
-  border: 1px solid #ccc;
+  border: 1px solid #1508ce;
   padding: 8px 12px;
   border-radius: 35px;
 }
