@@ -1,0 +1,14 @@
+input:focus{
+  border: 2px solid blue;
+  outline: none;
+  height: 30px;
+}
+input:required{
+  border: 2px solid greenyellow;
+}
+li:first-child{
+  color: brown;
+}
+li:nth-child(3n){
+  background-color: blue;
+}
