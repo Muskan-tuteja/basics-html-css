@@ -1,0 +1,18 @@
+  div p::before{
+  content: "muskan";
+  color: blueviolet;
+}
+div p::after{
+  content: "mahi";
+  color: blueviolet;
+}
+h1::first-letter{
+  color: brown;
+}
+p::first-line{
+  color: aqua;
+
+}
+p::selection{
+  color: red;
+}

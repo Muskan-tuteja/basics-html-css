@@ -1,0 +1,15 @@
+div h1 {
+  color: rebeccapurple;
+}
+div,p{
+  color: brown;
+}
+div>p{
+  color: aqua;
+}
+div h2 + p{
+  color: rgb(18, 200, 57);
+}
+ p~h2{
+  color: burlywood;
+}
