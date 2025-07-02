@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 0 15px;
+  background-color: rgb(221, 215, 222);
+}
+header img {
+  height: 100px;
+}
+header .search-icon {
+  gap: 40px;
+  position: relative;
+}
+
+header .search-icon input {
+  display: flex;
+  height: 30px;
+  width: 500px;
+  /* outline: none; */
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  padding: 0 20px;
+}
+header .search-icon i {
+  gap: 20px;
+  color: rgb(221, 215, 222);
+  position: absolute;
+  top: 6px;
+  left: 5px;
+}
+header nav {
+  display: inline;
+}
+header nav ul {
+  display: flex;
+  gap: 20px;
+  text-align: end;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(124, 89, 133);
+}
+header nav ul li {
+  color: rgb(124, 89, 133);
+}
+header nav ul li i {
+  color: purple;
+}
+div ul {
+  display: flex;
+  gap: 40px;
+  padding: 0 40px;
+  margin: 10px;
+  position: relative;
+}
+div ul li:hover {
+  background-color: purple;
+}
+
+div ul li {
+  list-style: none;
+  position: relative;
+}
+div ul li:hover > ul {
+  display: block;
+}
+
+div ul li ul {
+  display: none;
+  position: absolute;
+}
+@media screen and (min-width: 820px) {
+}
