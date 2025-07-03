@@ -24,14 +24,15 @@ header .search-icon input {
   height: 30px;
   width: 500px;
   /* outline: none; */
+  border: none;
   border-radius: 2px;
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
-  padding: 0 20px;
+  padding: 0 120px;
 }
 header .search-icon i {
-  gap: 20px;
+  gap: 10px;
   color: rgb(221, 215, 222);
   position: absolute;
   top: 6px;
@@ -42,15 +43,17 @@ header nav {
 }
 header nav ul {
   display: flex;
-  gap: 20px;
-  text-align: end;
+  gap: 10px;
+  text-align: center;
 }
 header nav ul li {
   list-style: none;
+  padding-left: 10px;
 }
 header nav ul li a {
   text-decoration: none;
   color: white;
+  padding-right: 70px;
 }
 header nav ul li a:hover {
   text-decoration: none;
@@ -58,10 +61,55 @@ header nav ul li a:hover {
 }
 header nav ul li {
   color: rgb(124, 89, 133);
+  gap: 5px;
+  padding-right: 50px;
 }
 header nav ul li i {
   color: purple;
 }
+.menu-container {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-container {
+    display: block;
+    position: relative;
+  }
+
+  .menu-dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 150px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+
+  .menu-container:hover .menu-dropdown {
+    display: block;
+  }
+
+  .menu-dropdown li {
+    list-style: none;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+  }
+
+  .menu-dropdown li:hover {
+    background-color: #eee;
+    color: purple;
+  }
+}
+
+
+
 div ul {
   display: flex;
   gap: 40px;
@@ -71,11 +119,15 @@ div ul {
 }
 div ul li:hover {
   background-color: purple;
+  cursor: pointer;
+  
 }
 
 div ul li {
   list-style: none;
   position: relative;
+  padding-bottom: 10px;
+ 
 }
 div ul li:hover > ul {
   display: block;
@@ -84,6 +136,9 @@ div ul li:hover > ul {
 div ul li ul {
   display: none;
   position: absolute;
+ 
 }
-@media screen and (min-width: 820px) {
+div ul li ul>li:first-child(2){
+  color: blue;
 }
+
