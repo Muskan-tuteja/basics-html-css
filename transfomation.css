@@ -1,0 +1,61 @@
+.div1{
+  padding-top: 20px;
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  color: brown;
+  text-align: center;
+  background-color: blue;
+}
+.div1:hover{
+  cursor: pointer;
+  background-image: radial-gradient(black,red,yellow);
+  transform: rotate(400deg);
+  transition:2s;
+}
+.div2{
+  padding-top: 20px;
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  color: brown;
+  text-align: center;
+  background-color: blue;
+}
+.div2:hover{
+  cursor: pointer;
+  background-image: linear-gradient(black,red,yellow);
+  transform: translate(200px);
+  transition: 2s;
+}
+.div3{
+  padding-top: 20px;
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  color: brown;
+  text-align: center;
+  background-color: blue;
+}
+.div3:hover{
+  cursor: pointer;
+  background-image: conic-gradient(black,red,yellow);
+  transform: scaleY(.5);
+  transition: 2s;
+}
+.div4{
+  padding-top: 20px;
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+  color: brown;
+  text-align: center;
+  background-color: blue;
+}
+.div4:hover{
+  cursor: pointer;
+  background-image: radial-gradient(black,red,yellow);
+  transform: skew(200deg);
+  transition: 3s;
+}
+
